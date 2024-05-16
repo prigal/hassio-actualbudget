@@ -15,6 +15,7 @@ ports:
   5006/tcp: 5006
 image: ghcr.io/actualbudget/actual-server
 version: 24.5.0-alpine
+options:
   actual_https_key: "/ssl/privkey.pem"
   actual_https_cert: "/ssl/fullchain.pem"
 schema:
