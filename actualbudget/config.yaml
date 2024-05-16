@@ -24,3 +24,4 @@ schema:
 environment:
   ACTUAL_HTTPS_KEY: "$actual_https_key"
   ACTUAL_HTTPS_CERT: "$actual_https_cert"
+legacy: true 
